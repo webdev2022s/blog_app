@@ -1,0 +1,17 @@
+.main {
+  margin-bottom: 5rem;
+}
+
+.main li {
+  border: 1px solid #ffe8cc;
+  padding: 1rem 1rem;
+}
+
+.main li:hover {
+  background-color: #f4b067b3;
+}
+
+.main li h3 {
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}

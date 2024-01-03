@@ -1,0 +1,36 @@
+.archieve {
+  margin-bottom: 5rem;
+  opacity: 50%;
+}
+
+.archieve h2 {
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.archieve button {
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+}
+
+.archieve ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  font-size: 90%;
+  gap: 2px;
+}
+
+.archieve li {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid #ffe8cc;
+  align-items: center;
+  padding: 0.4rem 1rem;
+}
+
+.archieve button {
+  font-size: 0.72rem;
+  margin-top: 1rem;
+}

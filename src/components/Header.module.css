@@ -1,0 +1,61 @@
+.header {
+  font-weight: bold;
+  margin-bottom: 32px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header img {
+  height: 3.6rem;
+  display: inline-flex;
+  background-blend-mode: color-burn;
+  will-change: filter;
+  filter: drop-shadow(0 0 1rem rgb(6, 124, 157));
+  transition: filter 300ms;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .header img {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.header h4 {
+  text-transform: uppercase;
+  letter-spacing: 0.8rem;
+  background-image: linear-gradient(to right, #7ed56f, #28b485);
+  background-clip: text;
+  will-change: filter;
+  transition: filter 300ms;
+  -webkit-background-clip: text;
+  filter: drop-shadow(0 0.2rem 0.5rem rgb(6, 124, 157));
+  color: transparent;
+  font-size: 1.3rem;
+}
+
+.header div {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.header button {
+  font-size: 1.2rem;
+}
+
+.header input {
+  width: 20rem;
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid #ffe8cc;
+  font-family: inherit;
+}

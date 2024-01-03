@@ -1,0 +1,19 @@
+.btn-dark-mode {
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 16px;
+  line-height: 1;
+  border: none;
+  background-color: #ffe8cc;
+  font-size: 1.2rem;
+}
+
+.button {
+  border: 1px solid #ffa94d;
+  background-color: #ffa94d;
+  font-weight: 700;
+  padding: 0.4rem 1rem;
+  cursor: pointer;
+  text-transform: uppercase;
+}

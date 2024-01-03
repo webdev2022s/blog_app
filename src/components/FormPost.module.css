@@ -1,0 +1,23 @@
+.form {
+  background-color: #f4b067b3;
+  padding: 1.8rem;
+  display: flex;
+  margin-bottom: 4rem;
+  gap: 3rem;
+}
+
+.form .title {
+  width: 15rem;
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid #ffe8cc;
+  font-family: inherit;
+}
+
+.form .summary {
+  width: 40rem;
+  font-size: 1.2rem;
+  padding: auto;
+  border: 1px solid #ffe8cc;
+  font-family: inherit;
+}
